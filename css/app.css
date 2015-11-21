@@ -1,0 +1,283 @@
+#navbar {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: transparent;
+  	border: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 70px;
+    font-size: 18px;
+}
+
+#navbottom {
+	font-size: 20px;
+	color: inherit;
+	text-decoration: none;
+}
+
+#coby {
+	margin-top: 10px;
+	text-align: right;
+	margin-left: 20px;
+	color: grey;
+	margin-right: 20px;
+}
+
+/*
+h1 {
+	color: #CEF0D4; 
+	font-family: 'Rouge Script', cursive; 
+	font-family: "proxima-nova";
+	font-weight: 400;
+	font-size: 80px; 
+	font-weight: bold; 
+	line-height: 48px; 
+	margin: 0 0 50px; 
+	text-align: center; 
+
+}*/
+
+#subtitle {
+	font-size: 16px; 
+	font-style: italic; 
+	line-height: 48px; 
+	margin-top: 0px;
+	text-align: center; 
+}
+
+.circle {
+	width:320px;
+	height:320px;
+	border-radius:50%;
+	font-size:40px;
+	color:#fff;
+	line-height:120px;
+	text-align:center;
+	background:#DB7093;
+	position: relative;
+    top: -550px;
+    right: -410px;
+	line-height: 100%;
+	opacity: 0.9;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+/*    background-color: #000;
+    color: white;*/
+}
+
+.backgroundImg{
+	background-size: auto 80%;
+    min-width: 110%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+
+#logo {
+	height: 0px;
+	width: 0px;
+	display: inline-block;
+	float: left;
+}
+
+footer {
+	position:fixed;
+	bottom:10px;
+	width:100%;
+	left:0px;
+	text-align:center;
+	/*border-top:1px solid #e3e3e3;*/
+}
+
+#icon a{
+	color: inherit; 
+    text-decoration: none;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+    vertical-align: middle;
+    position:relative;
+    right: -10px;
+    top: -200px;
+}
+
+#icons{
+	padding-left: 550px;
+	margin-top: 100px;
+	opacity: 0.8;
+}
+
+#text {
+	text-align: center;
+	font-size: 35px;
+	border-style: outset;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+h1 {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+	#logo {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	float: left;
+}
+
+/*project page css*/
+#pi {
+	height: 200px;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 300px;
+    float: left;
+}
+
+.ptext {
+    text-align: left;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+
+.ptext a {
+	display: block;
+}
+
+#pdetails {
+	display: inline-block;
+	padding-bottom: 120px;
+	margin-left: 80px;
+}
+
+#pnames {
+	margin-left: 400px;
+	margin-bottom: 20px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+
+
+/*morph pic of me*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.pic {
+  border: 2px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  margin-right: 100px;
+
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/*social media animation*/
+#contact {
+	padding-bottom: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+a,a:visited { color: #fff; }
+a:hover { color: #fff; }
+
+.social {
+	float: right;
+	margin: 2em 4.5em; width: 100px; height: 100px; 	
+	display: block; text-align: center; line-height:103px; color: #fff;
+	
+	position: relative;
+	transform:rotateY(0deg);
+	transition:transform .25s ease-out;
+	transform-style:preserve-3d;
+}
+.social > div {
+	width: 100px; height: 100px; background: #000;
+	position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+}
+.social >.front {
+	transform:translateZ(40px);
+}
+.social >.back {
+	background: #3B5998; font-size: 3em;
+	transform:rotateY(-100deg) translateZ(40px);
+}
+
+/*  Social Media Colors 
+	Facebook #3B5998
+	Flickr #FE0883
+	Foursquare #8FD400
+	Google+ #C63D2D
+	Instagram #4E433C
+	Linkedin #4875B4
+	Tumblr #2B4964
+	Twitter #33CCFF
+	Vimeo #86B32D
+	Youtube #FF3333
+	Dribbble #ea4c89
+*/
+.social.social-twitter > .back { background: #55ACEE; }
+.social.social-github > .back { background: #f3f3f3; color: #000; }
+.social.social-pinterest > .back { background: #e3262e; }
+.social.social-googleplus > .back { background: #dd4B39; }
+.social.social-skype > .back { background: #12A5F4; }
+.social.social-linkedin > .back { background: #4875B4; }
+.social.social-envolope > .back { background: #ea4c89; }
+
+/* Hover */
+.social:hover {
+	transform: rotateY(100deg);
+}
+
+#aboutTitle {
+	margin-top: 60px;
+}
+
+
+
