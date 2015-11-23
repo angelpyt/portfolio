@@ -12,11 +12,13 @@ body {
 	background-attachment: fixed;
 }
 #img-div {
-	margin-top: 100px;
+	margin-top: 150px;
 	max-width: 40%;
 	margin-left: 30%;
 	opacity: 0.8;
 }
+
+
 #navbar {
     width: 100%;
     max-width: 100%;
@@ -38,7 +40,7 @@ body {
 }
 
 #coby {
-	margin-top: 10px;
+	margin-top: 20px;
 	text-align: right;
 	margin-left: 20px;
 	color: grey;
@@ -145,7 +147,7 @@ h1 {
 }
 
 #pnames {
-	margin-left: 10px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
@@ -211,6 +213,7 @@ a:hover { color: #fff; }
 .social {
 	float: right;
 	margin: 2em 2em; width: 100px; height: 100px; 	
+	margin-bottom: 100px;
 	display: block; text-align: center; line-height:103px; color: #fff;
 	
 	position: relative;
@@ -258,7 +261,11 @@ a:hover { color: #fff; }
 }
 
 #aboutTitle {
-	margin-top: 60px;
+	margin-top: 0px;
+}
+
+#aContent {
+	margin-bottom: 100px;
 }
 
 @media screen and (min-width: 480px) {
