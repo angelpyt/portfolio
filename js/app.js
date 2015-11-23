@@ -4,7 +4,7 @@ var myApp = angular.module('myApp', ['ui.router'])
 myApp.config(function($stateProvider) {
     $stateProvider
     .state('home', {
-        url:'/home',
+        url:'',
         templateUrl: 'templates/home.html',
         controller: 'HomeController',
     })
@@ -54,10 +54,5 @@ myApp.config(function($stateProvider) {
 
 // Contact controller: define $scope.url as an image
     .controller('ContactController', function($scope){
-      $scope.url = "http://www.quicksprout.com/images/foggygoldengatebridge.jpg"
     })
 
-// // Education controller: define $scope.url as an image
-//     .controller('SkillsController', function($scope){
-//       $scope.url = "http://www.quicksprout.com/images/foggygoldengatebridge.jpg"
-//     })

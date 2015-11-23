@@ -1,10 +1,12 @@
 <!-- Write an expression that shows your "about" variable -->
 <div class='container'>
 	<h2 class="title">My websites</h2>
-	<div ng-repeat='projects in projects' style="width: 1800px; height: 250px">
+	<div ng-repeat='projects in projects'>
 <!-- 		<h3><img ng-src="{{projects.Image}}" class="img-circle top" id="pi">{{projects.Name}}</h3> -->
-		<a href="{{projects.Links}}"><img ng-src="{{projects.Image}}" class="img-circle top" id="pi"></a>
-		<div class="ptext">
+		<div>
+			<a href="{{projects.Links}}"><img ng-src="{{projects.Image}}" class="img-circle top" id="pi"></a>
+		</div>
+		<div>
 			<h3 id="pnames">{{projects.Name}}</h3>
 			<p id="pdetails">{{projects.Description}}</p>
 		</div>
